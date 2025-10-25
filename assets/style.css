@@ -10,6 +10,10 @@
   --grey-900: hsl(0, 0%, 8%);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -23,9 +27,9 @@ body {
 }
 
 .social-card {
-  max-width: 320px;
+  max-width: 350px;
   background: var(--grey-800);
-  padding: 1rem;
+  padding: 2.25rem;
   border-radius: 1rem;
   text-align: center;
 }
@@ -50,6 +54,7 @@ body {
 
 .social-card-description {
   color: var(--white);
+  font-size: 0.9rem;
 }
 
 .social-card-links {
